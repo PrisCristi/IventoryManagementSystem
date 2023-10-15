@@ -13,7 +13,10 @@ public class Inventory {
         items.add(item);                       // numeros.add(numero)
     }
 
-    public void removeItem(Item item){
-        items.remove(item);
+    public void removeItem(Item item) throws ItemNotFoundException{
+        if(!items.contains(item)){
+            throw new ItemNotFoundException( "Item not Found! ");
+        }
+        items.remove(item);  // se o item estiver na lista será removido por esse metodo.
     }
 }
