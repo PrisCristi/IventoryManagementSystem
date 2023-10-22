@@ -36,7 +36,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "inventPriscila"
+    "git-widget-placeholder": "inventPriscila",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RunManager">
@@ -80,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
