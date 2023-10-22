@@ -19,14 +19,13 @@ public class Inventory <T> {
             throw new ItemNotFoundException("Item not Found! ");
         items.remove(item);  // se o item estiver na lista será removido por esse metodo.
 
-
         Inventory<FoodItem> foodIventory = new Inventory<>();
         Inventory<EletronicsItem> eletronicsInventory = new Inventory<>();
+
         FoodItem foodItem = new FoodItem(001, "Banana", 23);
         EletronicsItem eletronicsItem = new EletronicsItem(002, "Macbook", 4);
 
         foodIventory.addItem(foodItem);
         eletronicsInventory.addItem(eletronicsItem);
-
     }
 }
